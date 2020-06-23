@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  margin-top: 50px;
+}
+.list{
+  list-style-type: none;
+}
+
+.todo-item,.completed-todo-item{
+  cursor: pointer;
+}
+
+.todo-item {
+  text-decoration: none;
+}
+
+.completed-todo-item {
+  text-decoration: line-through;
+}
